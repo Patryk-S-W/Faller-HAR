@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>FallerFeather</defName>
+    <label>フォーラーフェザー</label>
+    <description>フォーラーから抜け落ちた、又は剥ぎ取った羽。\n耐衝撃性が高く、断熱性や保温効果も優れた布素材だ。\n加工前の状態は外気ですぐ劣化してしまうので保管場所には注意が必要。</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Wool</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <MarketValue>13</MarketValue>
+      <Mass>0.038</Mass>
+      <Flammability>3</Flammability>
+      <DeteriorationRate>8.0</DeteriorationRate>
+      <StuffPower_Armor_Sharp>1.5</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>2.0</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>1.5</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>34</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>15</StuffPower_Insulation_Heat>
+    </statBases>
+    <burnableByRecipe>true</burnableByRecipe>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <minRewardCount>10</minRewardCount>
+    <stuffProps>
+      <categories>
+        <li>Fabric</li>
+      </categories>
+      <commonality>0.09</commonality>
+      <color>(255,220,200)</color>
+        <statOffsets>
+            <Insulation_Cold>3</Insulation_Cold>
+            <Insulation_Heat>0</Insulation_Heat>
+        </statOffsets>
+      <statFactors>
+        <Flammability>1.7</Flammability>
+        <MaxHitPoints>2.0</MaxHitPoints>
+        <Beauty>4.0</Beauty>
+      </statFactors>
+    </stuffProps>
+    <thingCategories>
+      <li>Textiles</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <thingSetMakerTags><li>RewardStandardHighFreq</li></thingSetMakerTags>
+  </ThingDef>
+</Defs>

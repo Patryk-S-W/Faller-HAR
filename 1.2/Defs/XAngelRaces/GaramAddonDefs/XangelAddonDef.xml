@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<AlienRace.AddonDef>
+	<defName>XangelLight</defName>
+    <shaderType>Cutout</shaderType>
+		<!--Path-->
+    <addonPath>
+		<normal>Things/XAngelRaces/Lights/Light</normal>
+		<damaged>Things/XAngelRaces/Lights/Light</damaged>
+		<customs>
+			<li>
+				<hediffDef>MissingBodyPart</hediffDef>
+				<path>Things/XAngelRaces/Null</path>
+			</li>
+		</customs>
+	</addonPath>
+    <!--Draw-->
+	<linkedBodyPart>XAngelLightOutSide</linkedBodyPart>
+<!--欠損で消える対応Parts
+    頭部欠損で一緒に消えて欲しいだけなら
+    <drawingToBody>をfalseにしてNoneを指定-->
+    <drawnInBed>true</drawnInBed>
+    <rotting>false</rotting>
+    <!--Position-->
+    <drawingToBody>false</drawingToBody>
+	<drawPriority>	<!--パーツの表示優先度 レイヤーマップを見ると良い-->
+		<north>125</north>
+		<south>5</south>
+		<west>125</west>
+		<east>125</east>
+	</drawPriority>
+	<offsets>
+		<north>(0.0, 0.0)</north>
+		<south>(0.0, 0.0)</south>
+		<west>(0, 0.0)</west>
+		<east>(0, 0.0)</east>
+	</offsets>
+</AlienRace.AddonDef>
+
+
+<AlienRace.AddonDef>
+	<defName>XangelWingL</defName>
+	<shaderType>Cutout</shaderType>
+<!--Path-->
+	<addonPath>
+		<normal>Things/XAngelRaces/Wing/WingL</normal>
+		<damaged>Things/XAngelRaces/Wing/WingL</damaged>
+		<customs>
+			<li>
+				<hediffDef>MissingBodyPart</hediffDef>
+				<path>Things/XAngelRaces/Null</path>
+			</li>
+		</customs>
+	</addonPath>
+<!--Draw-->
+	<linkedBodyPart>XAngelWing1_L</linkedBodyPart><!--欠損で消える対応Parts 耳とかは下の記述で頭付属になってたらNoneでもOk-->
+	<drawnInBed>false</drawnInBed>
+	<rotting>false</rotting><!--Position-->
+	<drawingToBody>true</drawingToBody><!--胴体付属か頭付属か trueで胴体-->
+	<drawPriority>	<!--パーツの表示優先度 レイヤーマップを見ると良い-->
+		<north>81</north>
+		<south>25</south>
+		<west>125</west>
+		<east>5</east>
+	</drawPriority>
+	<offsets>
+		<north>(0.0, 0.0)</north>
+		<south>(0.0, 0.0)</south>
+		<west>(0, 0.0)</west>
+		<east>(0, 0.0)</east>
+	</offsets>
+</AlienRace.AddonDef>
+
+<AlienRace.AddonDef>
+	<defName>XangelWingR</defName>
+	<shaderType>Cutout</shaderType>
+<!--Path-->
+	<addonPath>
+		<normal>Things/XAngelRaces/Wing/WingR</normal>
+		<damaged>Things/XAngelRaces/Wing/WingR</damaged>
+		<customs>
+			<li>
+				<hediffDef>MissingBodyPart</hediffDef>
+				<path>Things/XAngelRaces/Null</path>
+			</li>
+		</customs>
+	</addonPath>
+<!--Draw-->
+	<linkedBodyPart>XAngelWing1_R</linkedBodyPart><!--欠損で消える対応Parts 耳とかは下の記述で頭付属になってたらNoneでもOk-->
+	<drawnInBed>false</drawnInBed>
+	<rotting>false</rotting><!--Position-->
+	<drawingToBody>true</drawingToBody><!--胴体付属か頭付属か trueで胴体-->
+	<drawPriority>	<!--パーツの表示優先度 レイヤーマップを見ると良い-->
+		<north>81</north>
+		<south>25</south>
+		<west>5</west>
+		<east>125</east>
+	</drawPriority>
+	<offsets>
+		<north>(0.0, 0.0)</north>
+		<south>(0.0, 0.0)</south>
+		<west>(0, 0.0)</west>
+		<east>(0, 0.0)</east>
+	</offsets>
+</AlienRace.AddonDef>
+
+</Defs>

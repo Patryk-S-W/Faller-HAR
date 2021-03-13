@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<AlienRace.FaceDef Abstract="True" Name="XAngelFace_Base">
+	<shaderType>Cutout</shaderType>
+	<mentalBreakPath>Things/XAngelRaces/Null</mentalBreakPath>     <!--[x = MentalBreakThreshold].MentalBreak.精神崩壊-->
+	<aboutToBreakPath>Things/XAngelRaces/Null</aboutToBreakPath>   <!--[0% < mood <= x%].AboutToBreak.崩壊寸前-->
+	<onEdgePath>Things/XAngelRaces/Null</onEdgePath>               <!--[x% < mood <= (x+5)%].OnEdge.不快-->
+	<stressedPath>Things/XAngelRaces/Null</stressedPath>           <!--[(x+5)% < mood <= (x+15)%].Stressed.ストレス-->
+	<neutralPath>Things/XAngelRaces/Null</neutralPath>             <!--[(x+15)% < mood <= 65%].Neutral.通常-->	
+	<contentPath>Things/XAngelRaces/Null</contentPath>             <!--[65% < mood <= 90%].Content.満足-->
+	<happyPath>Things/XAngelRaces/Null</happyPath>                 <!--[90% < mood <= 100%].Happy.幸せ-->
+    <!--Special Path-->                                            <!-- ~↑心情変化||状態変化↓~ -->
+	<sleepingPath>Things/XAngelRaces/Null</sleepingPath>           <!--眠っている-->
+	<painShockPath>Things/XAngelRaces/Null</painShockPath>         <!--痛みで気絶-->
+	<deadPath>Things/XAngelRaces/Null</deadPath>                   <!--死亡-->
+	<blinkPath>Things/XAngelRaces/Null</blinkPath>                 <!--まばたき-->
+	<winkPath>Things/XAngelRaces/Null</winkPath>                   <!--ウィンク-->
+	<draftedPath>Things/XAngelRaces/Null</draftedPath>             <!--徴兵-->
+	<damagedPath>Things/XAngelRaces/Null</damagedPath>             <!--ダメージ-->
+	<attackingPath>Things/XAngelRaces/Null</attackingPath>         <!--攻撃-->
+    <!--Hediff Path-->                                             <!--Hediff対応変化(オプション)-->
+	<customs>
+<!--
+		<li>
+			<hediffDef>Pregnant</hediffDef>
+			<path>Path</path>
+			<priority>0</priority>
+		</li>
+-->
+	</customs>
+</AlienRace.FaceDef>
+<AlienRace.FaceDef ParentName="XAngelFace_Base">
+	<defName>XAngelFace_Null</defName>
+</AlienRace.FaceDef>
+
+<AlienRace.FaceDef ParentName="XAngelFace_Base">
+    <!--顔のDef-->
+	<defName>XAngelFace_Mayuge</defName>
+	<shaderType>CutoutComplex</shaderType>
+	<mentalBreakPath>Things/XAngelRaces/Faces/General/Upper/MentalBreak/Face</mentalBreakPath>
+	<aboutToBreakPath>Things/XAngelRaces/Faces/General/Upper/AboutToBreak/Face</aboutToBreakPath>
+	<onEdgePath>Things/XAngelRaces/Faces/General/Upper/OnEdge/Face</onEdgePath>
+	<stressedPath>Things/XAngelRaces/Faces/General/Upper/Stressed/Face</stressedPath>
+	<neutralPath>Things/XAngelRaces/Faces/General/Upper/Neutral/Face</neutralPath>
+	<contentPath>Things/XAngelRaces/Faces/General/Upper/Content/Face</contentPath>
+	<happyPath>Things/XAngelRaces/Faces/General/Upper/Happy/Face</happyPath>
+    <!-- ~↑心情変化||状態変化↓~ -->
+	<sleepingPath>Things/XAngelRaces/Faces/General/Upper/Sleeping/Face</sleepingPath>
+	<painShockPath>Things/XAngelRaces/Faces/General/Upper/PainShock/Face</painShockPath>
+	<deadPath>Things/XAngelRaces/Faces/General/Upper/Dead/Face</deadPath>
+	<blinkPath>Things/XAngelRaces/Faces/General/Upper/Blink/Face</blinkPath>
+	<winkPath>Things/XAngelRaces/Faces/General/Upper/Wink/Face</winkPath>
+	<draftedPath>Things/XAngelRaces/Faces/General/Upper/Drafted/Face</draftedPath>
+	<damagedPath>Things/XAngelRaces/Faces/General/Upper/Damaged/Face</damagedPath>
+	<attackingPath>Things/XAngelRaces/Faces/General/Upper/Attacking/Face</attackingPath>
+</AlienRace.FaceDef>
+<AlienRace.FaceDef ParentName="XAngelFace_Base">
+	<defName>XAngelFace_Nomal</defName>
+	<shaderType>CutoutComplex</shaderType>
+	<mentalBreakPath>Things/XAngelRaces/Faces/General/Lower/MentalBreak/Face</mentalBreakPath>
+	<aboutToBreakPath>Things/XAngelRaces/Faces/General/Lower/AboutToBreak/Face</aboutToBreakPath>
+	<onEdgePath>Things/XAngelRaces/Faces/General/Lower/OnEdge/Face</onEdgePath>
+	<stressedPath>Things/XAngelRaces/Faces/General/Lower/Stressed/Face</stressedPath>
+	<neutralPath>Things/XAngelRaces/Faces/General/Lower/Neutral/Face</neutralPath>
+	<contentPath>Things/XAngelRaces/Faces/General/Lower/Content/Face</contentPath>
+	<happyPath>Things/XAngelRaces/Faces/General/Lower/Happy/Face</happyPath>
+    <!-- ~↑心情変化||状態変化↓~ -->
+	<sleepingPath>Things/XAngelRaces/Faces/General/Lower/Sleeping/Face</sleepingPath>
+	<painShockPath>Things/XAngelRaces/Faces/General/Lower/PainShock/Face</painShockPath>
+	<deadPath>Things/XAngelRaces/Faces/General/Lower/Dead/Face</deadPath>
+	<blinkPath>Things/XAngelRaces/Faces/General/Lower/Blink/Face</blinkPath>
+	<winkPath>Things/XAngelRaces/Faces/General/Lower/Wink/Face</winkPath>
+	<draftedPath>Things/XAngelRaces/Faces/General/Lower/Drafted/Face</draftedPath>
+	<damagedPath>Things/XAngelRaces/Faces/General/Lower/Damaged/Face</damagedPath>
+	<attackingPath>Things/XAngelRaces/Faces/General/Lower/Attacking/Face</attackingPath>
+</AlienRace.FaceDef>
+<AlienRace.FaceDef ParentName="XAngelFace_Base">
+	<defName>XAngelFace_Ojou</defName>
+	<shaderType>CutoutComplex</shaderType>
+	<mentalBreakPath>Things/XAngelRaces/Faces/Ojou/Lower/MentalBreak/Face</mentalBreakPath>
+	<aboutToBreakPath>Things/XAngelRaces/Faces/Ojou/Lower/AboutToBreak/Face</aboutToBreakPath>
+	<onEdgePath>Things/XAngelRaces/Faces/Ojou/Lower/OnEdge/Face</onEdgePath>
+	<stressedPath>Things/XAngelRaces/Faces/Ojou/Lower/Stressed/Face</stressedPath>
+	<neutralPath>Things/XAngelRaces/Faces/Ojou/Lower/Neutral/Face</neutralPath>
+	<contentPath>Things/XAngelRaces/Faces/Ojou/Lower/Content/Face</contentPath>
+	<happyPath>Things/XAngelRaces/Faces/Ojou/Lower/Happy/Face</happyPath>
+    <!-- ~↑心情変化||状態変化↓~ -->
+	<sleepingPath>Things/XAngelRaces/Faces/Ojou/Lower/Sleeping/Face</sleepingPath>
+	<painShockPath>Things/XAngelRaces/Faces/Ojou/Lower/PainShock/Face</painShockPath>
+	<deadPath>Things/XAngelRaces/Faces/Ojou/Lower/Dead/Face</deadPath>
+	<blinkPath>Things/XAngelRaces/Faces/Ojou/Lower/Blink/Face</blinkPath>
+	<winkPath>Things/XAngelRaces/Faces/Ojou/Lower/Wink/Face</winkPath>
+	<draftedPath>Things/XAngelRaces/Faces/Ojou/Lower/Drafted/Face</draftedPath>
+	<damagedPath>Things/XAngelRaces/Faces/Ojou/Lower/Damaged/Face</damagedPath>
+	<attackingPath>Things/XAngelRaces/Faces/Ojou/Lower/Attacking/Face</attackingPath>
+</AlienRace.FaceDef>
+
+<AlienRace.FaceDef ParentName="XAngelFace_Base">
+	<defName>XAngelFace_Cool</defName>
+	<shaderType>CutoutComplex</shaderType>
+	<mentalBreakPath>Things/XAngelRaces/Faces/Cool/Lower/MentalBreak/Face</mentalBreakPath>
+	<aboutToBreakPath>Things/XAngelRaces/Faces/Cool/Lower/AboutToBreak/Face</aboutToBreakPath>
+	<onEdgePath>Things/XAngelRaces/Faces/Cool/Lower/OnEdge/Face</onEdgePath>
+	<stressedPath>Things/XAngelRaces/Faces/Cool/Lower/Stressed/Face</stressedPath>
+	<neutralPath>Things/XAngelRaces/Faces/Cool/Lower/Neutral/Face</neutralPath>
+	<contentPath>Things/XAngelRaces/Faces/Cool/Lower/Content/Face</contentPath>
+	<happyPath>Things/XAngelRaces/Faces/Cool/Lower/Happy/Face</happyPath>
+    <!-- ~↑心情変化||状態変化↓~ -->
+	<sleepingPath>Things/XAngelRaces/Faces/Cool/Lower/Sleeping/Face</sleepingPath>
+	<painShockPath>Things/XAngelRaces/Faces/Cool/Lower/PainShock/Face</painShockPath>
+	<deadPath>Things/XAngelRaces/Faces/Cool/Lower/Dead/Face</deadPath>
+	<blinkPath>Things/XAngelRaces/Faces/Cool/Lower/Blink/Face</blinkPath>
+	<winkPath>Things/XAngelRaces/Faces/Cool/Lower/Wink/Face</winkPath>
+	<draftedPath>Things/XAngelRaces/Faces/Cool/Lower/Drafted/Face</draftedPath>
+	<damagedPath>Things/XAngelRaces/Faces/Cool/Lower/Damaged/Face</damagedPath>
+	<attackingPath>Things/XAngelRaces/Faces/Cool/Lower/Attacking/Face</attackingPath>
+</AlienRace.FaceDef>
+</Defs>

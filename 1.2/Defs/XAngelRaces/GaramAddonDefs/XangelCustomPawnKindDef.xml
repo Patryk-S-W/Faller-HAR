@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<AlienRace.CustomPawnKindDef>
+	<defName>Xangel_CustomPawnKindDef</defName>
+	<pawnKindDefReplaceSettings>
+		<li>
+			<originalPawnKindDef>Colonist</originalPawnKindDef>
+			<originalWeight>10</originalWeight>
+			<replacedPawnKindDef>Xangel_Colonist</replacedPawnKindDef>
+			<replacedWeight>2</replacedWeight>
+		</li>
+		<li>
+			<originalPawnKindDef>WildMan</originalPawnKindDef>
+			<originalWeight>10</originalWeight>
+			<replacedPawnKindDef>Xangel_WildMan</replacedPawnKindDef>
+			<replacedWeight>1</replacedWeight>
+		</li>
+	</pawnKindDefReplaceSettings>
+	<onlyUsePawnKindDefBackstories>	<!--FactionDefのBackactionCategoriesを無視する-->
+<!--		<li>XAngelStorys</li>-->
+	</onlyUsePawnKindDefBackstories>
+</AlienRace.CustomPawnKindDef>
+
+ <LifeStageDef>
+    <defName>XangelBaby</defName>
+    <label>赤ちゃん</label>
+   <adjective>赤ん坊の</adjective>
+    <bodySizeFactor>0.2</bodySizeFactor>
+    <healthScaleFactor>0.2</healthScaleFactor>
+    <hungerRateFactor>0.2</hungerRateFactor>
+    <marketValueFactor>0.5</marketValueFactor>
+    <meleeDamageFactor>0.5</meleeDamageFactor>
+    <statFactors>
+      <MoveSpeed>0.2</MoveSpeed>
+    </statFactors>
+  </LifeStageDef>
+
+  <LifeStageDef>
+    <defName>XangelToddler</defName>
+    <label>幼児</label>
+   <adjective>幼い</adjective>
+    <bodySizeFactor>0.32</bodySizeFactor>
+    <healthScaleFactor>0.4</healthScaleFactor>
+    <hungerRateFactor>0.4</hungerRateFactor>
+    <marketValueFactor>0.7</marketValueFactor>
+    <meleeDamageFactor>0.6</meleeDamageFactor>
+    <statFactors>
+      <MoveSpeed>0.3</MoveSpeed>
+    </statFactors>
+  </LifeStageDef>
+
+  <LifeStageDef>
+    <defName>XangelChild</defName>
+    <label>子供</label>
+   <adjective>子供の</adjective>
+
+    <bodySizeFactor>0.5</bodySizeFactor>
+    <foodMaxFactor>0.85</foodMaxFactor>
+    <healthScaleFactor>0.5</healthScaleFactor>
+    <hungerRateFactor>0.6</hungerRateFactor>
+    <marketValueFactor>0.9</marketValueFactor>
+    <meleeDamageFactor>0.7</meleeDamageFactor>
+    <statFactors>
+      <MoveSpeed>0.65</MoveSpeed>
+      <CarryingCapacity>1.4</CarryingCapacity>
+      <EatingSpeed>1.4</EatingSpeed>
+    </statFactors>
+  </LifeStageDef>
+
+  <LifeStageDef>
+    <defName>XangelTeenager</defName>
+    <label>青年</label>
+    <adjective>若い</adjective>
+    <reproductive>true</reproductive>
+    <foodMaxFactor>0.7</foodMaxFactor>
+    <bodySizeFactor>0.85</bodySizeFactor>
+    <healthScaleFactor>0.90</healthScaleFactor>
+    <meleeDamageFactor>0.75</meleeDamageFactor>
+    <statFactors>
+      <MoveSpeed>0.95</MoveSpeed>
+      <CarryingCapacity>1.75</CarryingCapacity>
+      <EatingSpeed>1.75</EatingSpeed>
+    </statFactors>
+  </LifeStageDef>
+  
+  <LifeStageDef>
+    <defName>XangelAdult</defName>
+    <label>adult</label>
+    <visible>false</visible>
+    <reproductive>true</reproductive>
+    <foodMaxFactor>0.5</foodMaxFactor>
+    <hungerRateFactor>0.5</hungerRateFactor>
+    <statFactors>
+      <ImmunityGainSpeed>1.2</ImmunityGainSpeed>
+      <EatingSpeed>2</EatingSpeed>
+      <CarryingCapacity>2</CarryingCapacity>
+    </statFactors>
+  </LifeStageDef>
+</Defs>

@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+   <BodyPartDef>
+    <defName>XAngelLightOutSide</defName>
+    <label>歪な光輪の外郭</label>
+    <hitPoints>50</hitPoints>
+    <permanentInjuryChanceFactor>0.5</permanentInjuryChanceFactor>
+    <skinCovered>true</skinCovered>
+    <solid>true</solid>
+    <canSuggestAmputation>false</canSuggestAmputation>
+    <tags>
+<!--
+      <li>SightSource</li>
+      <li>HearingSource</li>
+      <li>ConsciousnessSource</li>
+      <li>ManipulationLimbCore</li>
+-->
+    </tags>
+    <bleedRate>0</bleedRate>
+  </BodyPartDef>
+
+   <BodyPartDef>
+    <defName>XAngelLightSightSource</defName>
+    <label>光輪の視覚処理領域</label>
+    <hitPoints>20</hitPoints>
+    <permanentInjuryChanceFactor>15</permanentInjuryChanceFactor>
+    <skinCovered>true</skinCovered>
+    <delicate>true</delicate>
+    <canSuggestAmputation>false</canSuggestAmputation>
+    <tags>
+      <li>SightSource</li>
+    </tags>
+    <bleedRate>0</bleedRate>
+  </BodyPartDef>
+      
+   <BodyPartDef>
+    <defName>XAngelLightHearingSource</defName>
+    <label>光輪の聴覚処理領域</label>
+    <hitPoints>20</hitPoints>
+    <permanentInjuryChanceFactor>5</permanentInjuryChanceFactor>
+    <skinCovered>true</skinCovered>
+    <delicate>true</delicate>
+    <canSuggestAmputation>false</canSuggestAmputation>
+    <tags>
+      <li>HearingSource</li>
+    </tags>
+    <bleedRate>0</bleedRate>
+  </BodyPartDef>
+      
+   <BodyPartDef>
+    <defName>XAngelLightConsciousnessSource</defName>
+    <label>光輪の意識処理中枢</label>
+    <hitPoints>20</hitPoints>
+    <permanentInjuryChanceFactor>9999999</permanentInjuryChanceFactor>
+    <skinCovered>true</skinCovered>
+    <delicate>true</delicate>
+    <canSuggestAmputation>false</canSuggestAmputation>
+    <tags>
+      <li>ConsciousnessSource</li>
+    </tags>
+    <bleedRate>0</bleedRate>
+  </BodyPartDef>
+
+  <BodyPartGroupDef>
+    <defName>XAngelAttackToolPsychoP</defName>
+    <label>念力波</label>
+  </BodyPartGroupDef>
+    
+   <BodyPartDef>
+    <defName>XAngelLightManipulationLimbCore</defName>
+    <label>光輪の念力波増幅器官</label>
+    <hitPoints>20</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>true</skinCovered>
+    <delicate>true</delicate>
+    <canSuggestAmputation>false</canSuggestAmputation>
+    <tags>
+      <li>ManipulationLimbCore</li>
+    </tags>
+    <bleedRate>0</bleedRate>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>XAngelCore</defName>
+    <label>天使コア</label>
+    <hitPoints>50</hitPoints>
+    <permanentInjuryChanceFactor>0.5</permanentInjuryChanceFactor>
+    <skinCovered>true</skinCovered>
+    <bleedRate>0</bleedRate>
+    <solid>true</solid>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>XAngelBloodPumpingSource</defName>
+    <label>マナ循環器官</label>
+    <hitPoints>50</hitPoints>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>BloodPumpingSource</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>XAngelBreathingSource</defName>
+    <label>マナ吸収器官</label>
+    <hitPoints>50</hitPoints>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>BreathingSource</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>XAngelBloodFiltrationSource</defName>
+    <label>マナ濾過器官</label>
+    <hitPoints>50</hitPoints>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>BloodFiltrationKidney</li>
+      <li>BloodFiltrationSource</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>XAngelMetabolismSource</defName>
+    <label>老廃物排泄器官</label>
+    <hitPoints>50</hitPoints>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>BloodFiltrationLiver</li>
+      <li>MetabolismSource</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>XAngelWing1_R</defName>
+    <label>天使の翼 右上腕部</label>
+    <hitPoints>30</hitPoints>
+    <skinCovered>true</skinCovered>
+    <frostbiteVulnerability>6</frostbiteVulnerability>
+    <alive>false</alive>
+    <permanentInjuryChanceFactor>1</permanentInjuryChanceFactor>
+    <bleedRate>0.5</bleedRate>
+    <tags>
+      <li>MovingLimbCore</li>
+<!--      <li>Etn_XA_MovingWingCore</li>-->
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>XAngelWing2_R</defName>
+    <label>天使の翼 右前腕部</label>
+    <hitPoints>20</hitPoints>
+    <skinCovered>true</skinCovered>
+    <frostbiteVulnerability>6</frostbiteVulnerability>
+    <alive>false</alive>
+    <permanentInjuryChanceFactor>1</permanentInjuryChanceFactor>
+    <bleedRate>0.5</bleedRate>
+    <tags>
+      <li>MovingLimbCore</li>
+<!--      <li>Etn_XA_MovingWingCore</li>-->
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>XAngelWing1_L</defName>
+    <label>天使の翼 左上腕部</label>
+    <hitPoints>30</hitPoints>
+    <skinCovered>true</skinCovered>
+    <frostbiteVulnerability>6</frostbiteVulnerability>
+    <alive>false</alive>
+    <permanentInjuryChanceFactor>1</permanentInjuryChanceFactor>
+    <bleedRate>0.5</bleedRate>
+    <tags>
+      <li>MovingLimbCore</li>
+<!--      <li>Etn_XA_MovingWingCore</li>-->
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>XAngelWing2_L</defName>
+    <label>天使の翼  左前腕部</label>
+    <hitPoints>20</hitPoints>
+    <skinCovered>true</skinCovered>
+    <frostbiteVulnerability>6</frostbiteVulnerability>
+    <alive>false</alive>
+    <permanentInjuryChanceFactor>1</permanentInjuryChanceFactor>
+    <bleedRate>0.5</bleedRate>
+    <tags>
+      <li>MovingLimbCore</li>
+<!--      <li>Etn_XA_MovingWingCore</li>-->
+    </tags>
+  </BodyPartDef>
+
+
+  <BodyPartGroupDef>
+    <defName>XAngelLight</defName>
+    <label>天使の光輪</label>
+    <listOrder>115</listOrder>
+  </BodyPartGroupDef>
+
+  <BodyPartGroupDef>
+    <defName>XAngelWing</defName>
+    <label>天使の翼</label>
+    <listOrder>120</listOrder>
+  </BodyPartGroupDef>
+
+
+
+</Defs>

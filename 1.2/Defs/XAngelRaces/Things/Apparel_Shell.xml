@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef Abstract="True"  Name="XAngelApparel_ShellBase" ParentName="ApparelMakeableBase">
+    <!--外郭装備のベース-->
+    <thingCategories Inherit="False">
+      <li>XAngelApparel</li>
+    </thingCategories>
+    <graphicData>
+      <shaderType>CutoutComplex</shaderType>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <apparel>
+    <useWornGraphicMask>true</useWornGraphicMask>
+      <bodyPartGroups>
+<!--        <li>Torso</li>-->
+<!--        <li>Arms</li>-->
+<!--        <li>Legs</li>-->
+<!--        <li>XAngelWing</li>-->
+        <li>Neck</li>
+<!--        <li>Shoulders</li>-->
+      </bodyPartGroups>
+      <layers>
+        <li>Shell</li>
+      </layers>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    </ThingDef>
+    
+    <ThingDef ParentName="XAngelApparel_ShellBase">
+    <defName>XAngelApparel_Scarf</defName>
+    <label>XAマフラー</label>
+    <description>非情に長いマフラー。巻き方ひとつで防寒着にも日除けにもなる優れものだが、保護効果は僅かだ。</description>
+    <recipeMaker>
+    <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <costStuffCount>40</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <graphicData>
+      <shaderType>Cutout</shaderType>
+      <texPath>Things/XAngelRaces/Apparel/Scarf/Scarf</texPath>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>800</WorkToMake>
+      <Mass>0.4</Mass>
+      <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+        <!-- 装備した時にステータスに付与されるボーナス、デメリット。 -->
+      <MoveSpeed>0.0</MoveSpeed><!-- 移動速度アップ。人間の移動速度は大体5-->
+      <GlobalLearningFactor>0.00</GlobalLearningFactor><!--学習能力の向上。0.3、1.0、2.0-->
+      <ImmunityGainSpeed>0.02</ImmunityGainSpeed><!-- 免疫獲得速度の上昇。-->
+    </equippedStatOffsets>
+    <apparel>
+      <wornGraphicPath>Things/XAngelRaces/Apparel/Scarf/Scarf</wornGraphicPath>
+      <tags>
+        <li>IndustrialBasic</li>
+        <li>XAngelApparel</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+</Defs>

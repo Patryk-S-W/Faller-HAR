@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Abstract="True"  Name="XAngelApparel_ArmorBase" ParentName="ApparelMakeableBase">
+    <!--外郭装備のベース-->
+    <thingCategories Inherit="False">
+      <li>XAngelApparel</li>
+    </thingCategories>
+    <graphicData>
+      <shaderType>CutoutComplex</shaderType>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <apparel>
+    <useWornGraphicMask>true</useWornGraphicMask>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Arms</li>
+        <li>Legs</li>
+        <li>XAngelWing</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Middle</li>
+        <li>Shell</li>
+      </layers>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    </ThingDef>
+    <ThingDef ParentName="XAngelApparel_ShellBase">
+    <defName>XAngelApparel_LeatherCloak</defName>
+    <label>XA狩人の鎧</label>
+    <description>全身を覆う長い丈のマントが特徴的な戦闘用衣装。\n重要な部位をピンポイントで保護するよう配置された金属プレートのお陰で、軽さと堅牢さを両立している。</description>
+    <thingCategories Inherit="False">
+      <li>XAngelApparel</li>
+      <li>XAngelApparelArmor</li>
+    </thingCategories>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/XAngelRaces/Apparel/LeatherCloak/LeatherCloak</texPath>
+        <drawSize>1.6</drawSize>
+    </graphicData>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>90</costStuffCount>
+    <costList>
+      <Steel>10</Steel>
+    </costList>
+    <statBases>
+      <WorkToMake>38000</WorkToMake>
+      <MaxHitPoints>290</MaxHitPoints>
+      <Mass>4</Mass>
+      <StuffEffectMultiplierArmor>0.73</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>10</EquipDelay>
+    </statBases>
+    <thingSetMakerTags>
+      <li>RewardStandardLowFreq</li>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.3</MoveSpeed>
+    </equippedStatOffsets>
+    <apparel>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <wornGraphicPath>Things/XAngelRaces/Apparel/LeatherCloak/LeatherCloak</wornGraphicPath>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Arms</li>
+        <li>Legs</li>
+        <li>XAngelWing</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Hands</li>
+      </bodyPartGroups>
+      <tags>
+        <li>XAngelApparel</li>
+        <li>MedievalMilitary</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>XAngelApparel_CatHood</defName>
+    <label>XA猫耳フード</label>
+    <techLevel>Industrial</techLevel>
+    <description>頭部を保護する頭巾。\nある時、猫獣人種族の女性がフォーラーを巨大な人身売買組織から開放した出来事があった。\nその女性はフォーラーの保護を訴える派閥にとっては守護神のような存在であり、その他の派閥も彼女を戦神と呼び恐れていた。\nこの装備は彼女の身につけていた物を模して作られている。\n今はもう過去の人物では有るが、彼女の加護を祈ってこの頭巾をフォーラーに身に着けさせる習慣が残り続けている。</description>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <thingCategories Inherit="False">
+      <li>XAngelApparel</li>
+      <li>XAngelApparelArmor</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/XAngelRaces/Apparel/CatHood/CatHood</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.6, 1.6)</drawSize>
+        <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>80</costStuffCount>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>2400</WorkToMake>
+      <Mass>0.55</Mass>
+      <EquipDelay>3.1</EquipDelay>
+      <StuffEffectMultiplierArmor>0.5</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <equippedStatOffsets>
+<!-- 装備した時にステータスに付与されるボーナス、デメリット。 -->
+      <MoveSpeed>0.00</MoveSpeed><!-- 移動速度アップ。人間の移動速度は大体5-->
+      <GlobalLearningFactor>0</GlobalLearningFactor><!--学習能力の向上。0.3、1.0、2.0-->
+      <ImmunityGainSpeed>0.0</ImmunityGainSpeed><!-- 免疫獲得速度の上昇。-->
+      <SocialImpact>0.05</SocialImpact><!--社交増減。-->
+    </equippedStatOffsets>
+    <apparel>
+<useWornGraphicMask>true</useWornGraphicMask>
+      <bodyPartGroups>
+        <li>FullHead</li>
+        <li>Neck</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/XAngelRaces/Apparel/CatHood/CatHood</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>XAngelApparel</li>
+        <li>MedievalMilitary</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+
+</Defs>

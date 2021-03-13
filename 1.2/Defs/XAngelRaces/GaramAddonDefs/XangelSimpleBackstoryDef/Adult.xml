@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<AlienRace.SimpleBackstoryDef ParentName="Xangel_BS_Base">
+	<defName>Xangel_Vagrant</defName>
+	<backstoryInfo>
+		<slot>Adulthood</slot>	<!--Childhood, Adulthood-->
+		<title>フォーラー放浪者</title>
+		<titleShort>放浪者</titleShort>
+		<description>彼は放浪者でした。それは不幸なことでは有りません。彼の自由を他人に脅かされなかったことは確かな幸せだったはずです。</description>
+
+<!--連動される子供or大人生い立ちの選択-->
+<!--    <requiredBackstories>	
+			<li>OtherBackstoryDef</li>
+		</requiredBackstories>-->
+	</backstoryInfo>
+	<spawnCategories>
+		<li>XAngelStorys</li>
+	</spawnCategories>
+	<workDisables>		<!--野生人が知的にできるのを防ぎます-->
+<!--		<li>WorkTag</li>-->
+	</workDisables>
+	<requiredWorkTags>	<!--暴力を振るうことができない兵士を防ぎます-->
+<!--		<li>WorkTag</li>-->
+	</requiredWorkTags>
+	<skillGains>
+		<!--
+		<Construction>0</Construction>
+		<Plants>0</Plants>
+		<Intellectual>0</Intellectual>
+		<Mining>0</Mining>
+		<Shooting>0</Shooting>
+		<Melee>0</Melee>
+		<Social>0</Social>
+		<Animals>0</Animals>
+		<Cooking>0</Cooking>
+		<Medicine>0</Medicine>
+		<Artistic>0</Artistic>
+		<Crafting>0</Crafting>
+		-->
+	</skillGains>
+	<bioAgeRange>0~5000</bioAgeRange>
+	<chronoAgeRange>0~5000</chronoAgeRange>	<!--bioAgeRange + chronoAgeRange = pawn's chronoAgeRange-->
+	<maleChance>0.5</maleChance>
+</AlienRace.SimpleBackstoryDef>
+<AlienRace.SimpleBackstoryDef ParentName="Xangel_BS_Base">
+	<defName>Xangel_Colonist</defName>
+	<backstoryInfo>
+		<slot>Adulthood</slot>	<!--Childhood, Adulthood-->
+		<title>フォーラー入植者</title>
+		<titleShort>入植者</titleShort>
+		<description>彼はフォーラーですが、人間の生活に溶け込もうとしました。</description>
+
+<!--連動される子供or大人生い立ちの選択-->
+<!--    <requiredBackstories>	
+			<li>OtherBackstoryDef</li>
+		</requiredBackstories>-->
+	</backstoryInfo>
+	<spawnCategories>
+		<li>XAngelStorys</li>
+	</spawnCategories>
+	<workDisables>		<!--野生人が知的にできるのを防ぎます-->
+<!--		<li>WorkTag</li>-->
+	</workDisables>
+	<requiredWorkTags>	<!--暴力を振るうことができない兵士を防ぎます-->
+<!--		<li>WorkTag</li>-->
+	</requiredWorkTags>
+	<skillGains>
+		<!--
+		<Construction>0</Construction>
+		<Plants>0</Plants>
+		<Intellectual>0</Intellectual>
+		<Mining>0</Mining>
+		<Shooting>0</Shooting>
+		<Melee>0</Melee>
+		<Social>0</Social>
+		<Animals>0</Animals>
+		<Cooking>0</Cooking>
+		<Medicine>0</Medicine>
+		<Artistic>0</Artistic>
+		<Crafting>0</Crafting>
+		-->
+	</skillGains>
+	<bioAgeRange>0~5000</bioAgeRange>
+	<chronoAgeRange>0~5000</chronoAgeRange>	<!--bioAgeRange + chronoAgeRange = pawn's chronoAgeRange-->
+	<maleChance>0.5</maleChance>
+</AlienRace.SimpleBackstoryDef>
+<AlienRace.SimpleBackstoryDef ParentName="Xangel_BS_Base">
+	<defName>Xangel_Farmer</defName>
+	<backstoryInfo>
+		<slot>Adulthood</slot>	<!--Childhood, Adulthood-->
+		<title>フォーラー農家</title>
+		<titleShort>農家</titleShort>
+		<description>彼は人間から農業について学び、農作物の育成の心得を得ました。</description>
+
+<!--連動される子供or大人生い立ちの選択-->
+<!--    <requiredBackstories>	
+			<li>OtherBackstoryDef</li>
+		</requiredBackstories>-->
+	</backstoryInfo>
+	<spawnCategories>
+		<li>XAngelStorys</li>
+	</spawnCategories>
+	<workDisables>		<!--野生人が知的にできるのを防ぎます-->
+<!--		<li>WorkTag</li>-->
+	</workDisables>
+	<requiredWorkTags>	<!--暴力を振るうことができない兵士を防ぎます-->
+<!--		<li>WorkTag</li>-->
+	</requiredWorkTags>
+	<skillGains>
+		<Construction>0</Construction>
+		<Plants>4</Plants>
+		<Intellectual>0</Intellectual>
+		<Mining>0</Mining>
+		<Shooting>0</Shooting>
+		<Melee>0</Melee>
+		<Social>0</Social>
+		<Animals>0</Animals>
+		<Cooking>0</Cooking>
+		<Medicine>0</Medicine>
+		<Artistic>0</Artistic>
+		<Crafting>0</Crafting>
+	</skillGains>
+	<bioAgeRange>0~5000</bioAgeRange>
+	<chronoAgeRange>0~5000</chronoAgeRange>	<!--bioAgeRange + chronoAgeRange = pawn's chronoAgeRange-->
+	<maleChance>0.5</maleChance>
+</AlienRace.SimpleBackstoryDef>
+<AlienRace.SimpleBackstoryDef ParentName="Xangel_BS_Base">
+	<defName>Xangel_Butler</defName>
+	<backstoryInfo>
+		<slot>Adulthood</slot>	<!--Childhood, Adulthood-->
+		<title>フォーラー戦闘員</title>
+		<titleShort>戦闘員</titleShort>
+		<description>本来戦いを好まないフォーラー達ですが、彼は守るべき仲間を認識し、武器を手に取ることを躊躇しなくなりました。</description>
+
+<!--連動される子供or大人生い立ちの選択-->
+<!--    <requiredBackstories>	
+			<li>OtherBackstoryDef</li>
+		</requiredBackstories>-->
+	</backstoryInfo>
+	<spawnCategories>
+		<li>XAngelStorys</li>
+	</spawnCategories>
+	<workDisables>		<!--野生人が知的にできるのを防ぎます-->
+<!--		<li>WorkTag</li>-->
+	</workDisables>
+	<requiredWorkTags>	<!--暴力を振るうことができない兵士を防ぎます-->
+    <li>Violent</li>
+	</requiredWorkTags>
+	<skillGains>
+		<Construction>0</Construction>
+		<Plants>0</Plants>
+		<Intellectual>0</Intellectual>
+		<Mining>0</Mining>
+		<Shooting>3</Shooting>
+		<Melee>5</Melee>
+		<Social>1</Social>
+		<Animals>0</Animals>
+		<Cooking>0</Cooking>
+		<Medicine>0</Medicine>
+		<Artistic>0</Artistic>
+		<Crafting>0</Crafting>
+	</skillGains>
+	<bioAgeRange>0~5000</bioAgeRange>
+	<chronoAgeRange>0~5000</chronoAgeRange>	<!--bioAgeRange + chronoAgeRange = pawn's chronoAgeRange-->
+	<maleChance>0.5</maleChance>
+</AlienRace.SimpleBackstoryDef>
+<AlienRace.SimpleBackstoryDef ParentName="Xangel_BS_Base">
+	<defName>Xangel_SlaveAdult</defName>
+	<backstoryInfo>
+		<slot>Adulthood</slot>	<!--Childhood, Adulthood-->
+		<title>フォーラー奴隷</title>
+		<titleShort>奴隷</titleShort>
+		<description>調教されたフォーラーです。</description>
+
+<!--連動される子供or大人生い立ちの選択-->
+    <requiredBackstories>
+        <li>Xangel_Pet</li>
+    </requiredBackstories>
+	</backstoryInfo>
+	<spawnCategories>
+		<li>XAngelSlaveStorys</li>
+	</spawnCategories>
+	<workDisables>		<!--野生人が知的にできるのを防ぎます-->
+<!--		<li>None</li>-->
+<!--			<li>ManualDumb</li>-->
+<!--			<li>ManualSkilled</li>-->
+			<li>Violent</li>
+			<li>Caring</li>
+			<li>Social</li>
+			<li>Intellectual</li>
+<!--			<li>Animals</li>-->
+			<li>Artistic</li>
+			<li>Crafting</li>
+			<li>Cooking</li>
+			<li>Firefighting</li>
+			<li>Cleaning</li>
+<!--			<li>Hauling</li>-->
+			<li>PlantWork</li>
+<!--			<li>Mining</li>-->
+	</workDisables>
+	<requiredWorkTags>	<!--暴力を振るうことができない兵士を防ぎます-->
+			<li>Animals</li>
+			<li>Hauling</li>
+	</requiredWorkTags>
+	<skillGains>
+		
+<!--		<Construction>0</Construction>-->
+<!--		<Plants>0</Plants>-->
+<!--		<Intellectual>0</Intellectual>-->
+<!--		<Mining>0</Mining>-->
+<!--		<Shooting>0</Shooting>-->
+<!--		<Melee>0</Melee>-->
+<!--		<Social>0</Social>-->
+		<Animals>2</Animals>
+<!--		<Cooking>0</Cooking>-->
+<!--		<Medicine>0</Medicine>-->
+<!--		<Artistic>0</Artistic>-->
+<!--		<Crafting>0</Crafting>-->
+		
+	</skillGains>
+	<forcedTraits>
+		<li>
+			<traitDef>Beauty</traitDef>
+			<degree>1</degree>
+		</li>
+	</forcedTraits>
+	<disallowedTraits>
+		<li>
+			<traitDef>Beauty</traitDef>
+			<degree>-1</degree>
+		</li>
+		<li>
+			<traitDef>DrugDesire</traitDef>
+			<degree>2</degree>
+		</li>
+	</disallowedTraits>
+	<bioAgeRange>20~5000</bioAgeRange>
+	<chronoAgeRange>20~5000</chronoAgeRange>	<!--bioAgeRange + chronoAgeRange = pawn's chronoAgeRange-->
+</AlienRace.SimpleBackstoryDef>
+</Defs>

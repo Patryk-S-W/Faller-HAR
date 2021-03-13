@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Xangel_Colonist.label>Forer settler</Xangel_Colonist.label>
+  <Xangel_Colonist.labelPlural>Forer settlers</Xangel_Colonist.labelPlural>
+  <Xangel_Colonist.labelMale>male Forer settler</Xangel_Colonist.labelMale>
+  <Xangel_Colonist.labelMalePlural>male settlers</Xangel_Colonist.labelMalePlural>
+  <Xangel_Colonist.labelFemale>female Forer settler</Xangel_Colonist.labelFemale>
+  <Xangel_Colonist.labelFemalePlural>female Forer settlers</Xangel_Colonist.labelFemalePlural>
+
+  <Xangel_WildMan.label>Wild Faller</Xangel_WildMan.label>
+  <Xangel_WildMan.labelPlural>Wild fallers</Xangel_WildMan.labelPlural>
+  <Xangel_WildMan.labelMale>male Wild Faller</Xangel_WildMan.labelMale>
+  <Xangel_WildMan.labelMalePlural>male Wild fallers</Xangel_WildMan.labelMalePlural>
+  <Xangel_WildMan.labelFemale>female Wild Faller</Xangel_WildMan.labelFemale>
+  <Xangel_WildMan.labelFemalePlural>female Wild fallers</Xangel_WildMan.labelFemalePlural>
+
+
+</LanguageData>

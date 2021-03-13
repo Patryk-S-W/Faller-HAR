@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ModMetaData>
+    <name>Vuh's Add New Race Mod Faller.  For Garam</name>
+    <author>Vuh</author>
+    <packageId>Vuh.XAngelRacesGaram</packageId>
+    <url></url>
+	<supportedVersions>
+		<li>1.2</li>
+	</supportedVersions>
+    <description>彼らがどこからやってきたのか・・・\n空か、宇宙か、はたまた異世界からか？\n不思議な有翼種族である堕天使をプレイアブル種族として追加します。</description>
+<modDependencies>
+    <li>
+      <packageId>erdelf.HumanoidAlienRaces</packageId>
+      <displayName>Humanoid Alien Races 2.0</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/839005762</steamWorkshopUrl>
+    </li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Aoi_nasuko.Rimxy DynamiteS</li>
+		<li>erdelf.HumanoidAlienRaces</li>
+	</loadAfter>
+ </ModMetaData>

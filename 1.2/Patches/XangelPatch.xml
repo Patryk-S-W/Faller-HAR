@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patch>
+
+<!--
+ <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName = "Apparel_TribalA"]/apparel/tags</xpath>
+      <value>
+        <li>XAngelApparel</li>
+      </value>
+ </Operation>
+-->
+
+ <Operation Class="PatchOperationFindMod">
+  <mods>
+   <li>Rimxy DynamiteS</li>
+  </mods>
+    <success>Always</success>
+  <match Class="PatchOperationAddModExtension">
+      <xpath>/Defs/AlienRace.RaceAddonThingDef[defName = "XAngel_Basic"]</xpath>
+      <value>
+        <li Class="RDS.Addon_Pawn">
+<!--		<CanUse>true</CanUse>-->
+<!--		<CanBreed>true</CanBreed>-->
+<!--		<SexRace>None</SexRace>-->
+<!--		<SexRace>Insect</SexRace>-->
+<!--		<CanSexAge>300</CanSexAge>-->
+<!--		<DisableChild>true</DisableChild>-->
+<!--		<TimingHediff>None</TimingHediff>-->
+<!--		<SexHediff>null</SexHediff>-->
+<!--		<AmountHediff>1.0</AmountHediff>-->
+<!--		<TargetHediff>Partner</TargetHediff>-->
+<!--		<SexHediffEnd>null</SexHediffEnd>-->
+<!--		<AmountHediffEnd>1.0</AmountHediffEnd>-->
+<!--		<TargetHediffEnd>Partner</TargetHediffEnd>-->
+<!--		<SexClass>null</SexClass>-->
+<!--                <PregnancyHediff>null</PregnancyHediff>-->
+            <GenitalsName_Male>挿卵管</GenitalsName_Male>
+<!--            <GenitalsName_Female>膣</GenitalsName_Female>-->
+		<GenerateSex>Male</GenerateSex>
+		<FutanariChance>0</FutanariChance>
+		<PenisSize>2.0</PenisSize>
+                <BreastsSize>1.0</BreastsSize>
+		<VaginaSize>0.5</VaginaSize>
+		<PartsSizeFixed>false</PartsSizeFixed>
+        <AgingIneffect>true</AgingIneffect>
+        </li>
+      </value>
+     </match>
+    </Operation>
+
+</Patch>

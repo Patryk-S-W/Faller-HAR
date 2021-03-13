@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <XangelBaby.label>Baby</XangelBaby.label>
+  <XangelBaby.adjective>The baby</XangelBaby.adjective>
+
+  <XangelToddler.label>Infants</XangelToddler.label>
+  <XangelToddler.adjective>Very young</XangelToddler.adjective>
+
+  <XangelChild.label>Children</XangelChild.label>
+  <XangelChild.adjective>The child</XangelChild.adjective>
+
+  <XangelTeenager.label>Youth</XangelTeenager.label>
+  <XangelTeenager.adjective>Young</XangelTeenager.adjective>
+
+  <XangelAdult.label>adult</XangelAdult.label>
+
+
+</LanguageData>

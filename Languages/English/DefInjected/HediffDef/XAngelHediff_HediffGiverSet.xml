@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Descriptions of unique Hediffs and HediffGiverSets (lists of which Hediffs) for races. -->
+
+  <XAngelManaBloodLoss.label>Mana leakage</XAngelManaBloodLoss.label>
+  <XAngelManaBloodLoss.description>The energy around their bodies leaked out through the wounds.\nIt is similar to blood in humans, and if too much is lost, death will result.</XAngelManaBloodLoss.description>
+  <XAngelManaBloodLoss.stages.0.label>Mild</XAngelManaBloodLoss.stages.0.label>
+  <XAngelManaBloodLoss.stages.1.label>Mild</XAngelManaBloodLoss.stages.1.label>
+  <XAngelManaBloodLoss.stages.2.label>Moderate</XAngelManaBloodLoss.stages.2.label>
+  <XAngelManaBloodLoss.stages.3.label>Severe</XAngelManaBloodLoss.stages.3.label>
+  <XAngelManaBloodLoss.stages.4.label>Danger</XAngelManaBloodLoss.stages.4.label>
+  <XAngelManaBloodLoss.stages.5.label>Lethal Fields</XAngelManaBloodLoss.stages.5.label>
+
+
+</LanguageData>

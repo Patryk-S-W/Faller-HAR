@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs> 
+<!--
+   独自のHediff(状態異常)や種族のHediffGiverSet(どの状態異常になるかの一覧)の記述を書いています
+-->
+<HediffDef>
+      <!-- 状態異常の記述です -->
+    <defName>XAngelManaBloodLoss</defName>
+    <label>マナ流出</label>
+    <description>彼らの体内をめぐるエネルギーが、傷口から漏れ出してしまいました。\n人間で言う血液に近い働きを持っていて、多く失われると死に至ります。</description>
+    <lethalSeverity>1</lethalSeverity>
+    <stages>
+      <li>
+        <label>軽度</label>
+        <becomeVisible>false</becomeVisible>
+      </li>
+      <li>
+        <minSeverity>0.15</minSeverity>
+        <label>軽度</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.1</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.30</minSeverity>
+        <label>中度</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.2</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.45</minSeverity>
+        <label>重度</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.4</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.60</minSeverity>
+        <label>危険</label>
+        <lifeThreatening>false</lifeThreatening>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.7</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.80</minSeverity>
+        <label>致死領域</label>
+        <lifeThreatening>false</lifeThreatening>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.1</setMax>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+
+ <HediffGiverSetDef>
+    <defName>XAngelHediffGiverSets</defName>
+    <hediffGivers>
+      <!-- どの状態異常になるかを指定します -->
+
+        <li Class="HediffGiver_Bleeding">
+        <hediff>XAngelManaBloodLoss</hediff>
+        </li>
+
+      <!-- 基本的な人間の "老化による病気" と "失血" と "熱中症、低体温症" を無効化しました -->
+<!--      
+        <li Class="HediffGiver_Bleeding">
+        <hediff>BloodLoss</hediff>
+      </li>
+        <li Class="HediffGiver_Hypothermia">
+        <hediff>Hypothermia</hediff>
+        <hediffInsectoid>HypothermicSlowdown</hediffInsectoid>
+      </li>
+      <li Class="HediffGiver_Heat">
+        <hediff>Heatstroke</hediff>
+      </li>
+-->
+    </hediffGivers>
+  </HediffGiverSetDef>
+
+</Defs>

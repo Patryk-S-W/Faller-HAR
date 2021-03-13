@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<AlienRace.SimpleBackstoryDef  ParentName="Xangel_BS_Base">
+	<defName>Xangel_Pet</defName>
+	<backstoryInfo>
+		<slot>Childhood</slot>	<!--Childhood, Adulthood-->
+		<title>飼われていたフォーラー</title>
+		<titleShort>ペット</titleShort>
+		<description>彼の出自は不明ですが、子供時代の多くの期間をペットとして過ごしました。\n彼の精神は復旧が不可能な程に動物的です。</description>
+
+<!--連動される子供or大人生い立ちの選択-->
+    <requiredBackstories>	
+		<li>Xangel_SlaveAdult</li>
+	</requiredBackstories>
+	</backstoryInfo>
+	<spawnCategories>
+		<li>XAngelSlaveStorys</li>
+	</spawnCategories>
+	<workDisables>		<!--野生人が知的にできるのを防ぎます-->
+<!--		<li>None</li>-->
+<!--			<li>ManualDumb</li>-->
+<!--			<li>ManualSkilled</li>-->
+			<li>Violent</li>
+			<li>Caring</li>
+			<li>Social</li>
+			<li>Intellectual</li>
+<!--			<li>Animals</li>-->
+			<li>Artistic</li>
+			<li>Crafting</li>
+			<li>Cooking</li>
+			<li>Firefighting</li>
+			<li>Cleaning</li>
+<!--			<li>Hauling</li>-->
+			<li>PlantWork</li>
+<!--			<li>Mining</li>-->
+	</workDisables>
+	<requiredWorkTags>	<!--暴力を振るうことができない兵士を防ぎます-->
+			<li>Animals</li>
+			<li>Hauling</li>
+	</requiredWorkTags>
+	<skillGains>
+		
+<!--		<Construction>0</Construction>-->
+<!--		<Plants>0</Plants>-->
+<!--		<Intellectual>0</Intellectual>-->
+<!--		<Mining>0</Mining>-->
+<!--		<Shooting>0</Shooting>-->
+<!--		<Melee>0</Melee>-->
+<!--		<Social>0</Social>-->
+		<Animals>2</Animals>
+<!--		<Cooking>0</Cooking>-->
+<!--		<Medicine>0</Medicine>-->
+<!--		<Artistic>0</Artistic>-->
+<!--		<Crafting>0</Crafting>-->
+		
+	</skillGains>
+	<forcedTraits>
+		<li>
+			<traitDef>Beauty</traitDef>
+			<degree>1</degree>
+		</li>
+	</forcedTraits>
+	<disallowedTraits>
+		<li>
+			<traitDef>Beauty</traitDef>
+			<degree>-1</degree>
+		</li>
+		<li>
+			<traitDef>DrugDesire</traitDef>
+			<degree>2</degree>
+		</li>
+	</disallowedTraits>
+	<bioAgeRange>20~5000</bioAgeRange>
+	<chronoAgeRange>20~5000</chronoAgeRange>	<!--bioAgeRange + chronoAgeRange = pawn's chronoAgeRange-->
+</AlienRace.SimpleBackstoryDef>
+
+<AlienRace.SimpleBackstoryDef  ParentName="Xangel_BS_Base">
+	<defName>Xangel_Native</defName>
+	<backstoryInfo>
+		<slot>Childhood</slot>	<!--Childhood, Adulthood-->
+		<title>純フォーラー</title>
+		<titleShort>ペット</titleShort>
+		<description>彼は子供時代の間は地上に居ませんでした。</description>
+
+<!--連動される子供or大人生い立ちの選択-->
+<!--    <requiredBackstories>	
+			<li>OtherBackstoryDef</li>
+		</requiredBackstories>-->
+	</backstoryInfo>
+	<spawnCategories>
+		<li>XAngelStorys</li>
+	</spawnCategories>
+	<workDisables>
+	</workDisables>
+	<requiredWorkTags>
+	</requiredWorkTags>
+	<skillGains>
+		<Construction>1</Construction>
+		<Plants>0</Plants>
+		<Intellectual>2</Intellectual>
+		<Mining>1</Mining>
+		<Shooting>2</Shooting>
+		<Melee>1</Melee>
+		<Social>0</Social>
+		<Animals>2</Animals>
+		<Cooking>0</Cooking>
+		<Medicine>2</Medicine>
+		<Artistic>3</Artistic>
+		<Crafting>1</Crafting>
+		
+	</skillGains>
+	<forcedTraits>
+		<li>
+			<traitDef>Beauty</traitDef>
+			<degree>1</degree>
+		</li>
+	</forcedTraits>
+	<disallowedTraits>
+		<li>
+			<traitDef>DrugDesire</traitDef>
+			<degree>2</degree>
+		</li>
+	</disallowedTraits>
+	<forcedHediffs>
+<!--
+		<li>
+			<hediffDef>HediffDef</hediffDef>
+			<targetPart>None</targetPart>	
+			<severity>0.0</severity>
+			<chance>1.0</chance>
+		</li>
+-->
+	</forcedHediffs>
+	<bioAgeRange>100~5000</bioAgeRange>
+	<chronoAgeRange>100~5000</chronoAgeRange>	<!--bioAgeRange + chronoAgeRange = pawn's chronoAgeRange-->
+	<maleChance>0.5</maleChance>
+	<appearances>
+		<li>
+			<gender>None</gender>
+			<weight>1.0</weight>
+			<appearanceDef>XAngel_App_Basic</appearanceDef>
+		</li>
+	</appearances>
+</AlienRace.SimpleBackstoryDef>
+
+<AlienRace.SimpleBackstoryDef  ParentName="Xangel_BS_Base">
+	<defName>Xangel_child</defName>
+	<backstoryInfo>
+		<slot>Childhood</slot>	<!--Childhood, Adulthood-->
+		<title>人の子として育てられたフォーラー</title>
+		<titleShort>地上育ち</titleShort>
+		<description>彼の出自は不明ですが、子供時代を人のもとで過ごし保護されていました。</description>
+
+<!--連動される子供or大人生い立ちの選択-->
+<!--    <requiredBackstories>	
+			<li>OtherBackstoryDef</li>
+		</requiredBackstories>-->
+	</backstoryInfo>
+	<spawnCategories>
+		<li>XAngelStorys</li>
+	</spawnCategories>
+	<workDisables>
+	</workDisables>
+	<requiredWorkTags>
+	</requiredWorkTags>
+	<skillGains>
+		
+<!--		<Construction>0</Construction>-->
+<!--		<Plants>0</Plants>-->
+<!--		<Intellectual>0</Intellectual>-->
+<!--		<Mining>0</Mining>-->
+<!--		<Shooting>0</Shooting>-->
+<!--		<Melee>0</Melee>-->
+<!--		<Social>0</Social>-->
+<!--		<Animals>5</Animals>-->
+<!--		<Cooking>0</Cooking>-->
+<!--		<Medicine>0</Medicine>-->
+<!--		<Artistic>0</Artistic>-->
+<!--		<Crafting>0</Crafting>-->
+		
+	</skillGains>
+	<forcedTraits>
+		<li>
+			<traitDef>Beauty</traitDef>
+			<degree>1</degree>
+		</li>
+	</forcedTraits>
+	<disallowedTraits>
+		<li>
+			<traitDef>DrugDesire</traitDef>
+			<degree>2</degree>
+		</li>
+	</disallowedTraits>
+	<forcedHediffs>
+<!--
+		<li>
+			<hediffDef>HediffDef</hediffDef>
+			<targetPart>None</targetPart>	
+			<severity>0.0</severity>
+			<chance>1.0</chance>
+		</li>
+-->
+	</forcedHediffs>
+	<bioAgeRange>0~5000</bioAgeRange>
+	<chronoAgeRange>0~5000</chronoAgeRange>	<!--bioAgeRange + chronoAgeRange = pawn's chronoAgeRange-->
+	<maleChance>0.5</maleChance>
+	<appearances>
+		<li>
+			<gender>None</gender>
+			<weight>1.0</weight>
+			<appearanceDef>XAngel_App_Basic</appearanceDef>
+		</li>
+	</appearances>
+</AlienRace.SimpleBackstoryDef>
+
+<AlienRace.SimpleBackstoryDef  ParentName="Xangel_BS_Base">
+	<defName>Xangel_Baby</defName>
+	<backstoryInfo>
+		<slot>Childhood</slot>	<!--Childhood, Adulthood-->
+		<title>地上で生まれたフォーラー</title>
+		<titleShort>地上生まれ</titleShort>
+		<description>彼は地上で生まれたフォーラーの一人です。</description>
+
+<!--連動される子供or大人生い立ちの選択-->
+<!--    <requiredBackstories>	
+			<li>OtherBackstoryDef</li>
+		</requiredBackstories>-->
+	</backstoryInfo>
+	<spawnCategories>
+		<li>XAngelStorys</li>
+	</spawnCategories>
+	<workDisables>		<!--野生人が知的にできるのを防ぎます-->
+<!--		<li>WorkTag</li>-->
+	</workDisables>
+	<requiredWorkTags>	<!--暴力を振るうことができない兵士を防ぎます-->
+<!--		<li>WorkTag</li>-->
+	</requiredWorkTags>
+	<skillGains>
+		<!--
+		<Construction>0</Construction>
+		<Plants>0</Plants>
+		<Intellectual>0</Intellectual>
+		<Mining>0</Mining>
+		<Shooting>0</Shooting>
+		<Melee>0</Melee>
+		<Social>0</Social>
+		<Animals>0</Animals>
+		<Cooking>0</Cooking>
+		<Medicine>0</Medicine>
+		<Artistic>0</Artistic>
+		<Crafting>0</Crafting>
+		-->
+	</skillGains>
+	<forcedTraits>
+		<li>
+			<traitDef>Beauty</traitDef>
+			<degree>1</degree>
+		</li>
+	</forcedTraits>
+	<disallowedTraits>
+		<li>
+			<traitDef>DrugDesire</traitDef>
+			<degree>2</degree>
+		</li>
+	</disallowedTraits>
+	<forcedHediffs>
+<!--
+		<li>
+			<hediffDef>HediffDef</hediffDef>
+			<targetPart>None</targetPart>	
+			<severity>0.0</severity>
+			<chance>1.0</chance>
+		</li>
+-->
+	</forcedHediffs>
+	<bioAgeRange>0~5000</bioAgeRange>
+	<chronoAgeRange>0~5000</chronoAgeRange>	<!--bioAgeRange + chronoAgeRange = pawn's chronoAgeRange-->
+	<maleChance>0.5</maleChance>
+	<appearances>
+		<li>
+			<gender>None</gender>
+			<weight>1.0</weight>
+			<appearanceDef>XAngel_App_Baby</appearanceDef>
+		</li>
+	</appearances>
+</AlienRace.SimpleBackstoryDef>
+
+</Defs>

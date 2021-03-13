@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <XAngel_App_Basic.colorList.0.name>Wings</XAngel_App_Basic.colorList.0.name>
+  <XAngel_App_Basic.colorList.1.name>EyeColorMain</XAngel_App_Basic.colorList.1.name>
+  <XAngel_App_Basic.colorList.2.name>EyeColorSub</XAngel_App_Basic.colorList.2.name>
+  <XAngel_App_Basic.colorList.3.name>Light</XAngel_App_Basic.colorList.3.name>
+  <XAngel_App_Basic.colorList.4.name>Hair</XAngel_App_Basic.colorList.4.name>
+  <XAngel_App_Basic.colorList.5.name>AccentColor</XAngel_App_Basic.colorList.5.name>
+  <XAngel_App_Basic.colorList.6.name>SkinColor</XAngel_App_Basic.colorList.6.name>
+
+  <XAngel_App_Baby.colorList.0.name>Base</XAngel_App_Baby.colorList.0.name>
+
+
+</LanguageData>

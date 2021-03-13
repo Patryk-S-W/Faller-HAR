@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- ThingDef -->
+
+  <XAngelApparel_TribalA.label>Fowler's rags</XAngelApparel_TribalA.label>
+  <XAngelApparel_TribalA.description>Suitable underwear for fallers. Relatively durable and can be used as winter clothing.\n\nThe Forer is a race with a very small ego. Those who treat them like tools of the trade, toys or livestock dress them in this single piece of cloth.</XAngelApparel_TribalA.description>
+
+  <XAngelApparel_Mizugi.label>XA swimwear</XAngelApparel_Mizugi.label>
+  <XAngelApparel_Mizugi.description>Underwear for fallers.\nIn sunny and hot climates, it is not advisable to bare your skin, but as fallers do not burn in the sun, a swimming costume is extremely useful as heat-resistant equipment.</XAngelApparel_Mizugi.description>
+
+  <XAngelApparel_Spats.label>XA Spats</XAngelApparel_Spats.label>
+  <XAngelApparel_Spats.description>Underwear for fallers.\nThe snug fit, shape and smooth feel will turn the wearer's mood around.\nA product adapted to life in winter, thanks to a manufacturing process that improves heat retention.</XAngelApparel_Spats.description>
+
+
+</LanguageData>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<AlienRace.ImprovedHairDef>
+	<defName>XAngel_LongGV</defName>
+	<label>XAぼさぼさロングGV</label>
+	<hairGender>Any</hairGender>	<!--Male, Female, Any-->
+	<hairTags>
+		<li>XAngel_Hair</li>
+	</hairTags>
+<!--Texture-->
+	<shaderType>CutoutComplex</shaderType>
+	<texPath>Things/XAngelRaces/Hairs/Long/Upper/Hair</texPath>
+		<!--Texture upper hair-->
+	<lowerPath>Things/XAngelRaces/Hairs/Long/Lower/Hair</lowerPath>
+        <!--Texture lower hair-->
+<!--Draw-->
+	<drawnInBed>false</drawnInBed>	<!--[lowerPath]の画像をベッドイン時に描画するか-->
+</AlienRace.ImprovedHairDef>
+<AlienRace.ImprovedHairDef>
+	<defName>XAngel_Long</defName>
+	<label>XAぼさぼさロング</label>
+	<hairGender>Any</hairGender>	<!--Male, Female, Any-->
+	<hairTags>
+		<li>XAngel_Hair</li>
+	</hairTags>
+<!--Texture-->
+	<shaderType>Cutout</shaderType>
+	<texPath>Things/XAngelRaces/Hairs/Long/Upper/Hair</texPath>
+		<!--Texture upper hair-->
+	<lowerPath>Things/XAngelRaces/Hairs/Long/Lower/Hair</lowerPath>
+        <!--Texture lower hair-->
+<!--Draw-->
+	<drawnInBed>false</drawnInBed>	<!--[lowerPath]の画像をベッドイン時に描画するか-->
+</AlienRace.ImprovedHairDef>
+
+
+<AlienRace.ImprovedHairDef>
+	<defName>XAngel_PoneyGV</defName>
+	<label>XA片目隠れポニーGV</label>
+	<hairGender>Any</hairGender>	<!--Male, Female, Any-->
+	<hairTags>
+		<li>XAngel_Hair</li>
+	</hairTags>
+<!--Texture-->
+	<shaderType>CutoutComplex</shaderType>
+	<texPath>Things/XAngelRaces/Hairs/Poney/Upper/Hair</texPath>
+		<!--Texture upper hair-->
+	<lowerPath>Things/XAngelRaces/Hairs/Poney/Lower/Hair</lowerPath>
+        <!--Texture lower hair-->
+<!--Draw-->
+	<drawnInBed>false</drawnInBed>	<!--[lowerPath]の画像をベッドイン時に描画するか-->
+</AlienRace.ImprovedHairDef>
+<AlienRace.ImprovedHairDef>
+	<defName>XAngel_Poney</defName>
+	<label>XA片目隠れポニー</label>
+	<hairGender>Any</hairGender>	<!--Male, Female, Any-->
+	<hairTags>
+		<li>XAngel_Hair</li>
+	</hairTags>
+<!--Texture-->
+	<shaderType>Cutout</shaderType>
+	<texPath>Things/XAngelRaces/Hairs/Poney/Upper/Hair</texPath>
+		<!--Texture upper hair-->
+	<lowerPath>Things/XAngelRaces/Hairs/Poney/Lower/Hair</lowerPath>
+        <!--Texture lower hair-->
+<!--Draw-->
+	<drawnInBed>false</drawnInBed>	<!--[lowerPath]の画像をベッドイン時に描画するか-->
+</AlienRace.ImprovedHairDef>
+
+
+<AlienRace.ImprovedHairDef>
+	<defName>XAngel_ShoulderLengthGV</defName>
+	<label>XAセミロングGV</label>
+	<hairGender>Any</hairGender>	<!--Male, Female, Any-->
+	<hairTags>
+		<li>XAngel_Hair</li>
+	</hairTags>
+<!--Texture-->
+	<shaderType>CutoutComplex</shaderType>
+	<texPath>Things/XAngelRaces/Hairs/ShoulderLength/Upper/Hair</texPath>
+		<!--Texture upper hair-->
+	<lowerPath>Things/XAngelRaces/Hairs/ShoulderLength/Lower/Hair</lowerPath>
+        <!--Texture lower hair-->
+<!--Draw-->
+	<drawnInBed>false</drawnInBed>	<!--[lowerPath]の画像をベッドイン時に描画するか-->
+</AlienRace.ImprovedHairDef>
+<AlienRace.ImprovedHairDef>
+	<defName>XAngel_ShoulderLength</defName>
+	<label>XAセミロング</label>
+	<hairGender>Any</hairGender>	<!--Male, Female, Any-->
+	<hairTags>
+		<li>XAngel_Hair</li>
+	</hairTags>
+<!--Texture-->
+	<shaderType>Cutout</shaderType>
+	<texPath>Things/XAngelRaces/Hairs/ShoulderLength/Upper/Hair</texPath>
+		<!--Texture upper hair-->
+	<lowerPath>Things/XAngelRaces/Hairs/ShoulderLength/Lower/Hair</lowerPath>
+        <!--Texture lower hair-->
+<!--Draw-->
+	<drawnInBed>false</drawnInBed>	<!--[lowerPath]の画像をベッドイン時に描画するか-->
+</AlienRace.ImprovedHairDef>
+
+
+<AlienRace.ImprovedHairDef>
+	<defName>XAngel_BabyHair</defName>
+	<label>XAダミー</label>
+	<hairGender>Any</hairGender>	<!--Male, Female, Any-->
+	<hairTags>
+		<li>XAngel_BabyHair</li>
+	</hairTags>
+<!--Texture-->
+	<shaderType>Cutout</shaderType>
+	<texPath>Things/XAngelRaces/Null</texPath>
+		<!--Texture upper hair-->
+	<lowerPath>Things/XAngelRaces/Null</lowerPath>
+        <!--Texture lower hair-->
+<!--Draw-->
+	<drawnInBed>false</drawnInBed>	<!--[lowerPath]の画像をベッドイン時に描画するか-->
+</AlienRace.ImprovedHairDef>
+</Defs>

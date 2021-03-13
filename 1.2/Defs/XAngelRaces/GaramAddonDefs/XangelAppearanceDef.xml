@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<AlienRace.AppearanceDef  Abstract="True" Name="XAngel_App_Base">
+<!--外見設定-->
+<!--Color List-->
+	<colorList>
+		<li>
+			<name>Wings</name>
+			<colorClass>AlienRace.Only</colorClass>
+			<options>
+				<li>(255, 255, 255)	[60]</li>
+				<li>(157, 114, 108)	[30]</li>
+				<li>(32, 32, 32)	[9]</li>
+				<li>(16, 16, 16)	[1]</li>
+			</options>
+			<!--
+[AlienRace.Only]：単色を生成します。 [オプション] :( R、G、B）[重量]
+[AlienRace.Range]：ランダムな範囲の色を生成します。 [オプション] ：（ R、G、B）〜（R、G、B）[重量]
+[AlienRace.Grayscale]：グレースケールで色を生成します。 [オプション] ：（ 0）〜（255）[重量]
+[AlienRace.Hair]：Rimworldと同じヘアカラーを作成します。 [オプション]：なし
+[AlienRace.Melanin]：Rimworldと同じ肌の色を作成します。 [オプション] ：（ 0.0）〜（1.0）[重量]
+[AlienRace.Synchronization]：パーツの色を取得します。 （注：ポーンの成長のみ）
+[option]：skinColor_Main、skinColor_Sub、faceColor_Main、faceColor_Sub、hairColor_Main、hairColor_Sub、
+			-->
+		</li>
+		<li>
+			<name>EyeColorMain</name>
+			<colorClass>AlienRace.Range</colorClass>
+			<options>
+				<li>(100, 100, 100)~(0, 0, 0)	[100]</li>
+                
+				<li>(100, 75, 50)~(10, 5, 0)	[100]</li>
+				<li>(100, 50, 75)~(0, 10, 5)	[100]</li>
+				<li>(75, 50, 100)~(0, 5, 10)	[100]</li>
+				<li>(75, 100, 50)~(0, 10, 5)	[100]</li>
+				<li>(50, 75, 100)~(0, 5, 10)	[100]</li>
+				<li>(50, 100, 75)~(0, 5, 10)	[100]</li>
+                
+				<li>(255, 10, 10)~(50, 0, 0)	[100]</li>
+				<li>(10, 255, 10)~(0, 50, 0)	[100]</li>
+				<li>(10, 10, 255)~(0, 0, 50)	[100]</li>
+				<li>(180, 180, 0)~(30, 30, 0)	[100]</li>
+				<li>(0, 180, 180)~(0, 30, 30)	[100]</li>
+				<li>(180, 0, 180)~(30, 0, 30)	[100]</li>
+			</options>
+		</li>
+		<li>
+			<name>EyeColorSub</name>
+			<colorClass>AlienRace.Range</colorClass>
+			<options>
+				<li>(255, 255, 255)~(150, 150, 150)	[100]</li>
+                
+				<li>(255, 225, 200)~(200, 175, 150)	[100]</li>
+				<li>(255, 200, 225)~(200, 175, 150)	[100]</li>
+				<li>(200, 255, 225)~(150, 200, 175)	[100]</li>
+				<li>(200, 225, 255)~(150, 175, 200)	[100]</li>
+				<li>(225, 200, 255)~(150, 175, 200)	[100]</li>
+				<li>(225, 255, 200)~(150, 175, 200)	[100]</li>
+			</options>
+		</li>
+		<li>
+			<name>Light</name>
+			<colorClass>AlienRace.Only</colorClass>
+			<options>
+				<li>(255,255,255)   [100]</li>
+<!--				<li>(200,200,190)	[3]</li>-->
+<!--				<li>(175,175,150)	[2]</li>-->
+<!--				<li>(100,100,50)	[1]</li>-->
+			</options>
+		</li>
+		<li>
+			<name>Hair</name>
+			<colorClass>AlienRace.Only</colorClass>
+			<options>
+				<li>(255,255,255)   [1]</li>
+				<li>(226,209,209)	[1]</li>
+				<li>(130,213,145)	[1]</li>
+				<li>(255,236,107)	[1]</li>
+				<li>(145,104,68)	[1]</li>
+                <li>(241,73,74)	    [1]</li>
+				<li>(255,181,232)	[1]</li>
+				<li>(67,48,86)	    [1]</li>
+				<li>(116,129,219)	[1]</li>
+				<li>(154,150,251)	[1]</li>
+				<li>(41,22,24)  	[1]</li>
+				<li>(115,144,132)	[1]</li>
+				<li>(231,243,255)	[1]</li>
+				<li>(223,190,255)	[1]</li>
+			</options>
+		</li>
+		<li>
+			<name>AccentColor</name>
+			<colorClass>AlienRace.Range</colorClass>
+			<options>
+				<li>(255, 255, 255)~(150, 150, 150)	[1]</li>
+                
+				<li>(255, 225, 200)~(200, 175, 150)	[2]</li>
+				<li>(255, 200, 225)~(200, 175, 150)	[2]</li>
+				<li>(200, 255, 225)~(150, 200, 175)	[2]</li>
+				<li>(200, 225, 255)~(150, 175, 200)	[2]</li>
+				<li>(225, 200, 255)~(150, 175, 200)	[2]</li>
+				<li>(225, 255, 200)~(150, 175, 200)	[2]</li>
+
+				<li>(255, 0, 0)~(150, 0, 0)	[4]</li>
+				<li>(0, 255, 0)~(0, 150, 0)	[4]</li>
+				<li>(0, 0, 225)~(0, 0, 150)	[4]</li>
+
+				<li>(255, 100, 100)~(100, 50, 50)	[3]</li>
+				<li>(100, 255, 100)~(50, 100, 50)	[3]</li>
+				<li>(100, 100, 255)~(50, 50, 100)	[3]</li>
+			</options>
+		</li>
+		<li>
+			<name>SkinColor</name>
+			<colorClass>AlienRace.Melanin</colorClass>
+			<options>
+				<li>(0.0)~(0.33)	[10]</li>
+				<li>(0.33)~(0.66)	[30]</li>
+				<li>(0.66)~(1.0)	[60]</li>
+			</options>
+		</li>
+	</colorList>
+<!--Torso List-->
+	<torsoList>
+		<li>
+			<weight>10</weight>
+			<skinColor_Main>SkinColor</skinColor_Main>
+			<skinColor_Sub>SkinColor</skinColor_Sub>
+			<torsoDef>XAngelTorso_F</torsoDef>
+		</li>
+		<li>
+			<weight>10</weight>
+			<skinColor_Main>SkinColor</skinColor_Main>
+			<skinColor_Sub>SkinColor</skinColor_Sub>
+			<torsoDef>XAngelTorso_M</torsoDef>
+		</li>
+	</torsoList>
+<!--顔 List-->
+	<faceList>
+		<li>
+			<weight>10</weight>
+			<faceColor_Main>EyeColorMain</faceColor_Main>
+			<faceColor_Sub>EyeColorSub</faceColor_Sub>
+            <upperFaceDef>XAngelFace_Mayuge</upperFaceDef>
+			<lowerFaceDef>XAngelFace_Nomal</lowerFaceDef>
+		</li>
+		<li>
+			<weight>10</weight>
+			<faceColor_Main>EyeColorMain</faceColor_Main>
+			<faceColor_Sub>EyeColorSub</faceColor_Sub>
+            <upperFaceDef>XAngelFace_Mayuge</upperFaceDef>
+			<lowerFaceDef>XAngelFace_Ojou</lowerFaceDef>
+		</li>
+		<li>
+			<weight>10</weight>
+			<faceColor_Main>EyeColorMain</faceColor_Main>
+			<faceColor_Sub>EyeColorSub</faceColor_Sub>
+            <upperFaceDef>XAngelFace_Mayuge</upperFaceDef>
+			<lowerFaceDef>XAngelFace_Cool</lowerFaceDef>
+		</li>
+	</faceList>
+<!--髪List-->
+	<hairList>
+		<li>
+			<weight>1.0</weight>
+			<hairColor_Main>Hair</hairColor_Main>
+			<hairColor_Sub>AccentColor</hairColor_Sub>
+			<hairTags>
+				<li>XAngel_Hair</li>
+			</hairTags>
+		</li>
+	</hairList>
+<!--追加パーツList-->
+	<addonList>
+		<li>
+			<weight>10</weight>
+			<addons>
+				<li>
+					<addonColor_Main>Light</addonColor_Main>
+					<addonColor_Sub>Light</addonColor_Sub>
+					<addonDef>XangelLight</addonDef>
+				</li>
+				<li>
+					<addonColor_Main>Wings</addonColor_Main>
+					<addonColor_Sub>Wings</addonColor_Sub>
+					<addonDef>XangelWingL</addonDef>
+				</li>
+				<li>
+					<addonColor_Main>Wings</addonColor_Main>
+					<addonColor_Sub>Wings</addonColor_Sub>
+					<addonDef>XangelWingR</addonDef>
+				</li>
+			</addons>
+		</li>
+	</addonList>
+</AlienRace.AppearanceDef>
+<AlienRace.AppearanceDef ParentName="XAngel_App_Base">
+	<defName>XAngel_App_Basic</defName>
+</AlienRace.AppearanceDef>
+<AlienRace.AppearanceDef>
+	<defName>XAngel_App_Baby</defName>
+<!--外見設定-->
+<!--Color List-->
+	<colorList>
+		<li>
+			<name>Base</name>
+			<colorClass>AlienRace.Only</colorClass>
+			<options>
+				<li>(255, 255, 255)	[60]</li>
+			</options>
+		</li>
+	</colorList>
+<!--Torso List-->
+	<torsoList>
+		<li>
+			<weight>10</weight>
+			<skinColor_Main>Base</skinColor_Main>
+			<skinColor_Sub>Base</skinColor_Sub>
+			<torsoDef>XAngelTorso_Baby</torsoDef>
+		</li>
+	</torsoList>
+<!--顔 List-->
+	<faceList>
+		<li>
+			<weight>10</weight>
+			<faceColor_Main>Base</faceColor_Main>
+			<faceColor_Sub>Base</faceColor_Sub>
+            <upperFaceDef>XAngelFace_Null</upperFaceDef>
+			<lowerFaceDef>XAngelFace_Null</lowerFaceDef>
+		</li>
+	</faceList>
+<!--髪List-->
+	<hairList>
+		<li>
+			<weight>1.0</weight>
+			<hairColor_Main>Base</hairColor_Main>
+			<hairColor_Sub>Base</hairColor_Sub>
+			<hairTags>
+				<li>XAngel_BabyHair</li>
+			</hairTags>
+		</li>
+	</hairList>
+<!--追加パーツList-->
+	<addonList>
+	</addonList>
+</AlienRace.AppearanceDef>
+</Defs>

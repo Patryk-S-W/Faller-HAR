@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>XAngelApparel_Mugiwara</defName>
+    <label>XA麦わら帽子</label>
+    <techLevel>Industrial</techLevel>
+    <description>暑さを紛らわすのにちょうどよい帽子。</description>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Hay>100</Hay>
+    </costList>
+    <thingCategories Inherit="False">
+      <li>XAngelApparel</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/XAngelRaces/Apparel/Mugiwara/Mugiwara</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.6, 1.6)</drawSize>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToMake>600</WorkToMake>
+      <Mass>0.02</Mass>
+      <EquipDelay>1</EquipDelay>
+      <StuffEffectMultiplierArmor>0.08</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.50</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <equippedStatOffsets>
+    </equippedStatOffsets>
+    <apparel>
+        <useWornGraphicMask>true</useWornGraphicMask>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/XAngelRaces/Apparel/Mugiwara/Mugiwara</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>XAngelApparel</li>
+        <li>Neolithic</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>20</weight>
+          <only>(1,1,1,1)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <only>(0.1,0.1,0.1,1)</only>
+        </li>
+        <li>
+          <weight>20</weight>
+          <only>(0.1,0.1,0.9,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.9,0.1,0.1,1)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <only>(0.1,0.9,0.1,1)</only>
+        </li>
+        <li>
+          <weight>20</weight>
+          <only>(0.1,0.1,0.9,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+</Defs>

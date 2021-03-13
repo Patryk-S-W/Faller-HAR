@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Xangel_Vagrant.backstoryInfo.title>Forer Wanderer</Xangel_Vagrant.backstoryInfo.title>
+  <Xangel_Vagrant.backstoryInfo.titleShort>Nomads</Xangel_Vagrant.backstoryInfo.titleShort>
+  <Xangel_Vagrant.backstoryInfo.description>He was a wanderer. That is not an unhappy thing. It must have been a certain happiness that his freedom was not threatened by others.</Xangel_Vagrant.backstoryInfo.description>
+
+  <Xangel_Colonist.backstoryInfo.title>Forer settlers</Xangel_Colonist.backstoryInfo.title>
+  <Xangel_Colonist.backstoryInfo.titleShort>Planters</Xangel_Colonist.backstoryInfo.titleShort>
+  <Xangel_Colonist.backstoryInfo.description>He was a forerunner, but he tried to integrate himself into human life.</Xangel_Colonist.backstoryInfo.description>
+
+  <Xangel_Farmer.backstoryInfo.title>Faller farmers</Xangel_Farmer.backstoryInfo.title>
+  <Xangel_Farmer.backstoryInfo.titleShort>Farmers</Xangel_Farmer.backstoryInfo.titleShort>
+  <Xangel_Farmer.backstoryInfo.description>He learnt about agriculture from man and gained a good understanding of how to grow crops.</Xangel_Farmer.backstoryInfo.description>
+
+  <Xangel_Butler.backstoryInfo.title>Faller combatants</Xangel_Butler.backstoryInfo.title>
+  <Xangel_Butler.backstoryInfo.titleShort>Combatants</Xangel_Butler.backstoryInfo.titleShort>
+  <Xangel_Butler.backstoryInfo.description>Although the Fallers do not like to fight by nature, he recognises the friends he is protecting and no longer hesitates to pick up a weapon.</Xangel_Butler.backstoryInfo.description>
+
+  <Xangel_SlaveAdult.backstoryInfo.title>Forer slave</Xangel_SlaveAdult.backstoryInfo.title>
+  <Xangel_SlaveAdult.backstoryInfo.titleShort>Slaves</Xangel_SlaveAdult.backstoryInfo.titleShort>
+  <Xangel_SlaveAdult.backstoryInfo.description>A trained forerunner.</Xangel_SlaveAdult.backstoryInfo.description>
+
+
+</LanguageData>

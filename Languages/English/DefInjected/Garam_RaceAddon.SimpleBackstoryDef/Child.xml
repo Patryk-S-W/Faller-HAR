@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Xangel_Pet.backstoryInfo.title>A captive forager</Xangel_Pet.backstoryInfo.title>
+  <Xangel_Pet.backstoryInfo.titleShort>Pets</Xangel_Pet.backstoryInfo.titleShort>
+  <Xangel_Pet.backstoryInfo.description>His origins are unknown, but he spent much of his childhood as a pet.\nHis spirit is so animalistic that it is impossible to recover.</Xangel_Pet.backstoryInfo.description>
+
+  <Xangel_Native.backstoryInfo.title>Pure Forerunner</Xangel_Native.backstoryInfo.title>
+  <Xangel_Native.backstoryInfo.titleShort>Pets</Xangel_Native.backstoryInfo.titleShort>
+  <Xangel_Native.backstoryInfo.description>He was not on earth during his childhood.</Xangel_Native.backstoryInfo.description>
+
+  <Xangel_child.backstoryInfo.title>Forer was brought up as a child of man.</Xangel_child.backstoryInfo.title>
+  <Xangel_child.backstoryInfo.titleShort>Growing up on the ground</Xangel_child.backstoryInfo.titleShort>
+  <Xangel_child.backstoryInfo.description>His origins are unknown, but he spent his childhood in the care and protection of others.</Xangel_child.backstoryInfo.description>
+
+  <Xangel_Baby.backstoryInfo.title>Forer born on earth</Xangel_Baby.backstoryInfo.title>
+  <Xangel_Baby.backstoryInfo.titleShort>Born on earth</Xangel_Baby.backstoryInfo.titleShort>
+  <Xangel_Baby.backstoryInfo.description>He is one of the forerunners born on earth.</Xangel_Baby.backstoryInfo.description>
+
+
+</LanguageData>

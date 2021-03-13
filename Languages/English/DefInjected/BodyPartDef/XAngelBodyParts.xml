@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <XAngelLightOutSide.label>Outlines of the distorted halo</XAngelLightOutSide.label>
+  <XAngelLightSightSource.label>Visual processing area of the halo</XAngelLightSightSource.label>
+  <XAngelLightHearingSource.label>Auditory processing area of the halo</XAngelLightHearingSource.label>
+  <XAngelLightConsciousnessSource.label>Consciousness processing centre of the halo</XAngelLightConsciousnessSource.label>
+  <XAngelLightManipulationLimbCore.label>Organ for amplifying the telekinetic waves of the halo</XAngelLightManipulationLimbCore.label>
+  <XAngelCore.label>Angel Core</XAngelCore.label>
+  <XAngelBloodPumpingSource.label>Mana circulatory system</XAngelBloodPumpingSource.label>
+  <XAngelBreathingSource.label>Mana absorbing organ</XAngelBreathingSource.label>
+  <XAngelBloodFiltrationSource.label>Mana filtration system</XAngelBloodFiltrationSource.label>
+  <XAngelMetabolismSource.label>Old waste excretory organs</XAngelMetabolismSource.label>
+  <XAngelWing1_R.label>Angel's wings, right upper arm</XAngelWing1_R.label>
+  <XAngelWing2_R.label>Angel's wings, right forearm</XAngelWing2_R.label>
+  <XAngelWing1_L.label>Angel's wings, left upper arm</XAngelWing1_L.label>
+  <XAngelWing2_L.label>Angel's wings, left forearm</XAngelWing2_L.label>
+
+
+</LanguageData>

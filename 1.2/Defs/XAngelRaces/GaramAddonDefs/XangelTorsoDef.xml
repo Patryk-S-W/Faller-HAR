@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<BodyTypeDef Abstract="True" Name="XAngelBody_Base">
+	<headOffset>(0.07, 0.23)</headOffset>	<bodyNakedGraphicPath>Things/XAngelRaces/Null</bodyNakedGraphicPath>	<bodyDessicatedGraphicPath>Things/XAngelRaces/Null</bodyDessicatedGraphicPath>
+</BodyTypeDef>
+<BodyTypeDef ParentName="XAngelBody_Base">
+	<defName>XAngelM</defName>
+</BodyTypeDef>
+<BodyTypeDef ParentName="XAngelBody_Base">
+	<defName>XAngelF</defName>
+</BodyTypeDef>
+
+<Garam_RaceAddon.TorsoDef Abstract="True" Name="XAngelTorso_Base">
+	<shaderType>Cutout</shaderType>
+	<linkedBodyGroup>Torso</linkedBodyGroup>		<!--グループに属するBodyPartにダメージが与えられた場合、damageedPathが適用されます.-->
+	<linkedHeadGroup>FullHead</linkedHeadGroup>		<!--グループに属するBodyPartにダメージが与えられた場合、damageedPathが適用されます.-->
+<!--Head-->
+	<headPath>
+		<normal>Things/XAngelRaces/Heads/Maru</normal>
+		<damaged>Things/XAngelRaces/Heads/Maru</damaged>
+		<customs>
+<!--
+			<li>
+				<hediffDef>Pregnant</hediffDef>
+				<path>Path</path>
+				<priority>0</priority>
+			</li>
+-->
+		</customs>
+	</headPath>
+	<skullPath>Things/XAngelRaces/Null</skullPath>
+	<stumpPath>Things/XAngelRaces/Null</stumpPath>
+	<crownType>Average</crownType>	<!--[Average]:元のテクスチャ出力（推奨） / [Narrow]:狭いテクスチャ出力-->
+<!--Position-->
+	<headTargetingOffsets>
+		<body_south>
+			<south>(0.0, 0)</south>
+			<west>(-0.02, 0)</west>
+			<east>(0.02, 0)</east>
+		</body_south>
+		<body_north>
+			<north>(0.0, 0)</north>
+			<west>(-0.02, 0)</west>
+			<east>(0.02, 0)</east>
+		</body_north>
+		<body_west>
+			<north>(0.02, 0)</north>
+			<south>(0.02, 0)</south>
+			<west>(0, 0)</west>
+		</body_west>
+		<body_east>
+			<north>(-0.02, 0)</north>
+			<south>(-0.02, 0)</south>
+			<east>(0, 0)</east>
+		</body_east>
+	</headTargetingOffsets>
+</Garam_RaceAddon.TorsoDef>
+
+
+
+<Garam_RaceAddon.TorsoDef ParentName="XAngelTorso_Base">
+	<defName>XAngelTorso_M</defName>
+<!--Body-->
+	<bodyPath>
+		<normal>Things/XAngelRaces/Bodies/Naked_XAngelM</normal>
+		<damaged>Things/XAngelRaces/Bodies/Naked_XAngelM</damaged>
+		<customs>
+<!--		<li>
+				<hediffDef>Pregnant</hediffDef>
+				<path>Path</path>
+				<priority>0</priority>
+			</li>-->
+		</customs>
+	</bodyPath>
+	<bodyType>XAngelM</bodyType><!--装備用テクスチャのファイル検索用にBodyTypeを指定する　独自の物を用意するなら別途BodyTypeDefを記述すること-->
+</Garam_RaceAddon.TorsoDef>
+
+<Garam_RaceAddon.TorsoDef ParentName="XAngelTorso_Base">
+	<defName>XAngelTorso_F</defName>
+<!--Body-->
+	<bodyPath>
+		<normal>Things/XAngelRaces/Bodies/Naked_XAngelF</normal>
+		<damaged>Things/XAngelRaces/Bodies/Naked_XAngelF</damaged>
+		<customs>
+<!--		<li>
+				<hediffDef>Pregnant</hediffDef>
+				<path>Path</path>
+				<priority>0</priority>
+			</li>-->
+		</customs>
+	</bodyPath>
+	<bodyType>XAngelF</bodyType><!--装備用・・・？-->
+</Garam_RaceAddon.TorsoDef>
+
+
+
+<Garam_RaceAddon.TorsoDef>
+	<defName>XAngelTorso_Baby</defName>
+	<shaderType>Cutout</shaderType>
+	<linkedBodyGroup>Torso</linkedBodyGroup>		<!--グループに属するBodyPartにダメージが与えられた場合、damageedPathが適用されます.-->
+	<linkedHeadGroup>FullHead</linkedHeadGroup>		<!--グループに属するBodyPartにダメージが与えられた場合、damageedPathが適用されます.-->
+<!--Head-->
+	<headPath>
+		<normal>Things/XAngelRaces/Null</normal>
+		<damaged>Things/XAngelRaces/Null</damaged>
+	</headPath>
+	<skullPath>Things/XAngelRaces/Null</skullPath>
+	<stumpPath>Things/XAngelRaces/Null</stumpPath>
+	<crownType>Average</crownType>	<!--[Average]:元のテクスチャ出力（推奨） / [Narrow]:狭いテクスチャ出力-->
+<!--Position-->
+	<headTargetingOffsets>
+		<body_south>
+			<south>(0.0, 0)</south>
+			<west>(-0.02, 0)</west>
+			<east>(0.02, 0)</east>
+		</body_south>
+		<body_north>
+			<north>(0.0, 0)</north>
+			<west>(-0.02, 0)</west>
+			<east>(0.02, 0)</east>
+		</body_north>
+		<body_west>
+			<north>(0.02, 0)</north>
+			<south>(0.02, 0)</south>
+			<west>(0, 0)</west>
+		</body_west>
+		<body_east>
+			<north>(-0.02, 0)</north>
+			<south>(-0.02, 0)</south>
+			<east>(0, 0)</east>
+		</body_east>
+	</headTargetingOffsets>
+<!--Body-->
+	<bodyPath>
+		<normal>Things/XAngelRaces/Baby</normal>
+		<damaged>Things/XAngelRaces/Baby</damaged>
+		<customs>
+<!--		<li>
+				<hediffDef>Pregnant</hediffDef>
+				<path>Path</path>
+				<priority>0</priority>
+			</li>-->
+		</customs>
+	</bodyPath>
+</Garam_RaceAddon.TorsoDef>
+</Defs>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<PawnKindDef Name="XangelBasePawnKind" Abstract="True">
+		<combatPower>20</combatPower>
+		<canBeSapper>true</canBeSapper>
+		<baseRecruitDifficulty>0.80</baseRecruitDifficulty>
+		<race>XAngel_Basic</race>
+		<minGenerationAge>20</minGenerationAge>
+		<maxGenerationAge>2000</maxGenerationAge>
+		<invNutrition>2</invNutrition>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<apparelColor>(255,255,255)</apparelColor>
+		<apparelMoney>100~500</apparelMoney>
+		<itemQuality>Normal</itemQuality>
+		<apparelTags>
+        <li>XAngelApparel</li>
+		</apparelTags>
+	<apparelAllowHeadgearChance>0.6</apparelAllowHeadgearChance>
+	</PawnKindDef>
+	<PawnKindDef Name="XangelBasePawnKind_Normal" ParentName="XangelBasePawnKind" Abstract="True">
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>XAngelStorys</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="XangelBasePawnKind_Normal">
+	<defName>Xangel_Colonist</defName>
+	<label>フォーラー 入植者</label>
+    <combatPower>80</combatPower>
+	<defaultFactionType>PlayerColony</defaultFactionType>
+    <minGenerationAge>300</minGenerationAge>
+    </PawnKindDef>
+
+	<PawnKindDef ParentName="XangelBasePawnKind">
+    <defName>Xangel_WildMan</defName>
+    <label>野生フォーラー</label>
+    <combatPower>80</combatPower>
+    <minGenerationAge>20</minGenerationAge>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+                  <li>XAngelStorys</li>
+                  <li>XAngelSlaveStorys</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<baseRecruitDifficulty>0</baseRecruitDifficulty>
+		<itemQuality>Poor</itemQuality>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<techHediffsChance>0</techHediffsChance>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+</PawnKindDef>
+
+</Defs>
